@@ -1,0 +1,427 @@
+
+
+====================
+Context: Live Nation Entertainment Privacy Policy - Your Privacy Rights Effective July 20, 2012 (last updated October 08, 2013)
+Question: How does this website inform users about their policy changes?
+True Answer: Effective July 20, 2012 (last updated October 08, 2013)
+Predicted Answer: ive Nation Entertainment Privacy P
+
+
+====================
+Context: We use information for marketing purposes. For example, we might send you information about special promotions or offers. We might also tell you about new features or products. These might be our own offers or products, or third-party offers or products we think you might find interesting. Or, for example, if you buy tickets from us we'll enroll you in our newsletter. We may use push notifications and your location information on our mobile apps to send you alerts regarding local events. To learn about your choices for these communications, read the choices section below.
+Question: Will you use my information for marketing or promotional services?
+True Answer: send you alerts regarding local events
+Predicted Answer: marketing 
+
+
+====================
+Context: You can control tools on your mobile devices. For example, you can turn off the GPS locator or push notifications on your phone. Each push notification has an "unsubscribe" link.
+Question: How do I opt out of the company's service?
+True Answer: "unsubscribe" link.
+Predicted Answer: s. For example
+
+
+====================
+Context: Collection of Personally Identifiable Information From or Through Social Media Sites In addition, when you interact with any The Atlantic property page or account on a social media platform, such as Facebook, Twitter, Tumblr, or LinkedIn, we may collect the personally identifiable information that you make available to us on that page or account including your social media account ID. However, we will comply with the privacy policies of the corresponding social media platform and we will only collect and store such personally identifiable information that we are permitted to collect by those social media platforms. If you choose to link or login to your The Atlantic account with or through a social networking service, The Atlantic and that service may share certain information about you and your activities. With your consent, we also may share information about your activities, including what you view on the Sites, with that social networks users.
+Question: Will they disclose my data?
+True Answer: The Atlantic and that service may share
+Predicted Answer: ccount on a social medi
+
+
+====================
+Context: We may partner with third party advertising companies to better provide advertisements about goods and services that may be of interest to you. These third parties may use cookies alone or in conjunction with web beacons or other tracking technologies to collect information about you when you use the Sites. They may collect information about your online activities over time and across different websites and other online services. They may use this information to provide you with interest-based advertising or other targeted content. These advertising partners do not have access to or use your name, address, e-mail address, telephone number or other personally identifiable information from us, without your consent. They may, however, use persistent identifiers to anonymously track your Internet usage across other websites in their networks beyond these Sites. While we restrict their further use of such information, such third parties may, with sufficient data from other sources, be able to personally identify you, unknown to us.
+Question: What are the ways third parties obtain our information?
+True Answer: have access
+Predicted Answer: rtising companies to better provide advertisements about goods and services that may be of interest to you. These
+
+
+====================
+Context: Business Partners and Other Third Parties From time to time we allow companies whose products or services we feel may interest our print subscribers to advertise to those subscribers, using the names and addresses provided to us during the process of subscribing to the print edition. We do not share our subscribers names and addresses directly with these companies, however. In those instances, we use a reputable third party to administer the process on our behalf. Many of our subscribers find this a valuable and time-saving service. If you do not want your name and address to be shared for these purposes, you can opt-out of such sharing by e-mailing us at techtrouble(at)theatlantic(dot)com, or calling or writing us at the contact information provided.
+Question: Do you share my information with others?
+True Answer: do
+Predicted Answer: l may interest our print subscribers to advertise to those
+
+
+====================
+Context: Emails and Newsletters You may always opt-out of receiving future e-mail marketing messages and newsletters from The Atlantic by following the instructions contained within the emails and newsletters, or by e-mailing, calling or writing us at the addresses below.
+Question: Do the users have control on data used for marketing?
+True Answer: e-mail marketing messages and newsletters
+Predicted Answer: 
+
+
+====================
+Context: Disclosure of Your Information Sci-News.com does not sell, trade or rent your personal information to third parties. If we choose to do so in the future, you will be notified by email of our intentions, and have the right to be removed prior to the disclosure.
+Question: Who do you share my information with?
+True Answer: third parties
+Predicted Answer:  Sc
+
+
+====================
+Context: INFORMATION SHARING AND DISCLOSURE Yahoo does not rent, sell, or share personal information about you with other people or non-affiliated companies except to provide products or services you've requested, when we have your permission, or under the following circumstances:
+Question: What types of user's information do you share with others?
+True Answer: personal information
+Predicted Answer: LO
+
+
+====================
+Context: We reserve the right to send you certain communications relating to the Yahoo service, such as service announcements, administrative messages and the Yahoo Newsletter, that are considered part of your Yahoo account, without offering you the opportunity to opt out of receiving them.
+Question: What scope does the user choice or control apply to?
+True Answer: right to send you
+Predicted Answer: ht to send you certain communications relat
+
+
+====================
+Context: How the Service Uses and Shares Information About You: We use personally identifiable information you supply through the Service to provide you with the merchandise, product, service, and/or Content you have requested. For example, if you subscribe to any of our publications, we may use your e-mail address to send you a confirmation notice and your mailing address to send you the publication. Similarly, if you enter an online sweepstakes, we will use this information to notify you if you are a winner. We may also use the information to communicate with you about new features, products or services, and/or to improve the services that we offer by tailoring them to your needs.
+Question: Do you collect or use my information? If yes, then what type?
+True Answer: personally identifiable information
+Predicted Answer: es 
+
+
+====================
+Context: In addition, we reserve the right to use the information we collect about your computer, mobile or other device (including its geographic location), which may at times be able to identify you, for any lawful business purpose, including without limitation to help diagnose problems with our servers, to gather broad demographic information, analyze trends, track users' movements around the Service, and to otherwise administer the Service. Geographic location information about you and/or your computer, mobile or other device may specifically be used to show you content and sponsored messaging based on geographic location.
+Question: Do you collect or use my information? If yes, then what type?
+True Answer: computer, mobile or other device (including its geographic location),
+Predicted Answer: r
+
+
+====================
+Context: How to Opt-Out of Third Party Tracking Technologies: Our advertising service vendors and other third parties will at times also use Tracking Technologies to serve you advertisements tailored to interests you have shown by browsing on this Service and other sites, applications, destinations, and services you have visited, and to determine whether you have seen a particular advertisement before to avoid sending you duplicate advertisements, and for other lawful business purposes. In doing so, these third parties will collect non-personally identifiable data including for example the make, model, settings, specifications (e.g., CPU speed, connection speed, browser type, operating system, device identifier) and geographic location of your computer, mobile or other device, as well as date/time stamp, IP address, pages visited, time of visits, content viewed, ads viewed, the site(s), application(s), destination(s), and/or service(s) you arrived from, and other clickstream data. The use of Tracking Technologies by third parties is subject to their own privacy policies, not this Privacy Policy, and we have no responsibility or liability in connection therewith. If you do not want the services that Tracking Technologies provide, you may be able to opt-out by visiting http://www.aboutads.info.
+Question: Is my device IDs or IP address share with other third parties?
+True Answer: geographic location of your computer, mobile or other device
+Predicted Answer: and other sites, applications, de
+
+
+====================
+Context: We may place a cookie on your computer. A cookie is a small amount of data, which often includes an anonymous unique identifier, sent to your browser from a websites computers and stored on your computers hard drive. We may use cookies to keep track of your choice of language and home page preference; to understand your exposure to certain Internet advertisements as you use the Websites, and to gather usage data that will help us generally improve the quality of the Websites. There is a simple procedure in most browsers that allows you to deny or accept cookies. You should note that cookies may be necessary to provide you with certain features on the Websites.
+Question: For what purpose do you use my data?
+True Answer: use cookies to keep track of your choice of language and home page preference;
+Predicted Answer: ta, which often includes an ano
+
+
+====================
+Context: We may use Personally Identifiable Information to fulfill your requests, respond to your inquiries and provide other services, and to alert you to information, offers, or publications in which we think you may be interested. The emails that we send contain links that enable you to unsubscribe from such mailings.
+Question: Do you collect or use my information? If yes, then what type?
+True Answer: Personally Identifiable Information
+Predicted Answer: y I
+
+
+====================
+Context: We may disclose your Personally Identifiable Information to third parties in connection with a corporate transaction where all or a portion of our business (e.g., a portion that includes our customer lists) is sold or transferred. We alsomay disclose your Personally Identifiable Information if disclosure is required by law or as part of a lawsuit or government investigation or proceeding, or in order to permit us to exercise or preserve our legal rights or take action regarding potentially illegal activities or to protect the safety of any person.
+Question: How can a third party see my information?
+True Answer: We alsomay disclose your Personally Identifiable Information if disclosure is required by law or as part of a lawsuit or government investigation or proceeding, or in order to permit us to exercise or preserve our legal rights or take action regarding potentially illegal activities or to protect the safety of any person.
+Predicted Answer: los
+
+
+====================
+Context: Submitting an Order When you submit an order we ask for your name, email address, billing address, shipping address, telephone number, fax number and credit card information. Your credit card information is sent to, and processed by third party financial institutions and their vendors. These service providers receive this information only for the purpose of verifying your credit card information, and for processing payment for your order, and they are obligated to keep this information confidential.
+Question: Who do you share my information with?
+True Answer: third party financial institutions and their vendors
+Predicted Answer: your na
+
+
+====================
+Context: You can choose to have your browser warn you every time a cookie is being sent to you or you can turn off your computer's ability to receive cookies. If you refuse cookies, you will not be able to open a shopping cart on the Site, and therefore will not be able to complete an order with us online.
+Question: Does the website have user choice on the use of browser’s privacy settings?
+True Answer: you can turn off your computer's ability to receive cookies
+Predicted Answer: ou can choose to have your browser warn you every time a cookie is being sent to y
+
+
+====================
+Context: PERMISSIONS DESCRIBED IN THIS NOTICE This notice will explain the different types of permission we will obtain from you before we use or disclose your health information for a variety of purposes. The three types of permissions referred to in this notice are: A "general written consent," which Kaleida Health must obtain from you in order to use and disclose your health information in order to treat you, obtain payment for that treatment, and conduct our business operations. Kaleida Health must obtain this general written consent the first time we provide you with treatment or services. This general written consent is a broad permission that does not have to be repeated each time we provide treatment or services to you. An "opportunity to object," which Kaleida Health must provide to you before we may use or disclose your health information for certain purposes. In these situations, you will have an opportunity to object to the use or disclosure of your health information in person, over the phone, or in writing. A "written authorization," which will provide you with detailed information about the persons who may receive your health information and the specific purposes for which your health information may be used or disclosed. Kaleida Health is only permitted to use and disclose your health information described on the written authorization in ways that are explained on the written authorization form you have signed. A written authorization will have an expiration date or will expire upon the occurrence of a particular event.
+Question: Do they obtain the user's health information?
+True Answer: PERMISSIONS DESCRIBED IN THIS NOTICE This notice will explain the different types of permission we will obtain from you before we use or disclose your health information for a variety of purposes. The three types of permissions referred to in this notice are: A "general written consent," which Kaleida Health must obtain from you in order to use and disclose your health information in order to treat you, obtain payment for that treatment, and conduct our business operations. Kaleida Health must obtain this general written consent the first time we provide you with treatment or services. This general written consent is a broad permission that does not have to be repeated each time we provide treatment or services to you. An "opportunity to object," which Kaleida Health must provide to you before we may use or disclose your health information for certain purposes. In these situations, you will have an opportunity to object to the use or disclosure of your health information in person, over the phone, or in writing. A "written authorization," which will provide you with detailed information about the persons who may receive your health information and the specific purposes for which your health information may be used or disclosed. Kaleida Health is only permitted to use and disclose your health information described on the written authorization in ways that are explained on the written authorization form you have signed. A written authorization will have an expiration date or will expire upon the occurrence of a particular event.
+Predicted Answer: of permission we will obtain from you before we use or disclose your health information for a variety of purposes. The three types of permissions referred to in this notice are: A "general written consent," which Kale
+
+
+====================
+Context: Other uses and disclosures of your health information not described in this Notice will be made only with your written authorization. For example, we will not sell your health information or market a party's services or products to you if we are paid by that party to do so, without your written authorization.
+Question: What are the ways third parties obtain our information?
+True Answer: will not sell
+Predicted Answer: lth information not described in t
+
+
+====================
+Context: Business Operations. Kaleida Health may use your health information or share it with others in order to conduct our business operations. For example, we may use your health information to evaluate the performance of our staff in caring for you, or to educate our staff on how to improve the care they provide for you. As Kaleida Health is a teaching facility, we may disclose your health information for training and educational purposes to faculty physicians, residents and medical, dental, nursing, pharmacy or other students in health-related professions from local colleges or universities affiliated with Kaleida Health. Finally, Kaleida Health may share your health information with other health care providers and payors for certain of their business operations if the information is related to a relationship the provider or payor currently has or previously had with you, and if the provider or payor is required by federal law to protect the privacy of your health information.
+Question: Does the website mention the name of third parities, who gets my data?
+True Answer: other health care providers and payors
+Predicted Answer: ple, we 
+
+
+====================
+Context: Patient Directory. If you do not object, Kaleida Health will include your name, your location in our facility, your general condition (e.g., fair, stable, critical, etc.) and your religious affiliation in our Patient Directory while you are a patient in the hospital or one of the facilities listed at the beginning of this notice. This directory information, except for your religious affiliation, may be released to people who ask for you by name. Your religious affiliation may be given to a member of the clergy, such as a priest or rabbi, even if he or she doesn't ask for you by name. Kaleida Health's policy is to not disclose protected health information about Behavioral Health patients except as permitted or required by law.
+Question: Will they collect my personal info? If yes, which type of info?
+True Answer: religious affiliation
+Predicted Answer:  includ
+
+
+====================
+Context: Communication Barriers. Kaleida Health may use and disclose your health information if we are unable to obtain your general written consent because of substantial communication barriers, and we believe you would want us to treat you if we could communicate with you.
+Question: What types of user's information do you collect?
+True Answer: health information
+Predicted Answer: al
+
+
+====================
+Context: To Avert A Serious And Imminent Threat To Health Or Safety. Kaleida Health may use your health information or share it with others when necessary to prevent a serious and imminent threat to your health or safety, or the health or safety of another person or the public. In such cases, we will only share your information with someone able to help prevent the threat. Kaleida Health may also disclose your health information to law enforcement officers if you tell us that you participated in a violent crime that may have caused serious physical harm to another person (unless you admitted that fact while in counseling), or if we determine that you escaped from lawful custody.
+Question: How does a third party receive my data from you?
+True Answer: share
+Predicted Answer: r healt
+
+
+====================
+Context: Research. As appropriate, Kaleida Health will ask for your written authorization before using your health information or sharing it with others in order to conduct research. However, under some circumstances, Kaleida Health may use and disclose your health information without your written authorization if we obtain approval through a special process to ensure that research without your written authorization poses minimal risk to your privacy. Kaleida Health may also release your health information without your written authorization to people who are preparing a future research project. In the unfortunate event of your death, we may share your health information with people who are conducting research using the information of deceased persons.
+Question: What is the opt-in choice for data sharing?
+True Answer: authorization
+Predicted Answer: itten au
+
+
+====================
+Context: What Information Does The Motley Fool Gather About You- The Motley Fool collects information about our readers so that we can provide a more interesting and useful service, as well as more appropriate advertising. We ask for your name, email address, and other personal information when you register to use certain features of our Web site, or if you sign up for special or personalized services, such as our discussion boards or email newsletters. We also may ask for this information at other times, such as when you enter contests or other promotions sponsored by The Motley Fool and/or our partners. We sometimes conduct surveys as well, although you do not have to respond to them.
+Question: Will you use my information for marketing or promotional services?
+True Answer: other promotions sponsored by The Motley Fool
+Predicted Answer: tley Fool Gather About You- The Motley Fool collects information about our readers so that we can provi
+
+
+====================
+Context: Our Web site includes social media features including the Facebook Like button and widgets, such as the Share this button or other interactive mini-programs that run on our site (the "Social Media Features"). These features may collect your IP address, which page you are visiting on our site, and may set a cookie to enable the feature to function properly. Social Media Features are either hosted by a third party or hosted directly us. Your interactions with these Social Media Features are governed by the privacy policy of the company providing it.
+Question: Who exactly do you share my information with?
+True Answer: Facebook Like button and widgets
+Predicted Answer: cludes socia
+
+
+====================
+Context: If you would like more information about the information we are receiving and your choices with respect to that data, please: visit the DAA opt-out program the Evidon opt-out program to learn how to opt out of having your information collected in browsers for ad serving purposes; download the Evidon Ad Control application, available for iOS and Android, to learn how to opt out of having your information collected in mobile apps; and visit the Network Advertising Initiative's opt out page.
+Question: Do the choices apply to the collection of information by the company?
+True Answer: information we are receiving
+Predicted Answer: ke more information about the information we are receiving and your choices with respect to that d
+
+
+====================
+Context: We may disclose information to others when we have your consent.
+Question: Do my shared data leak my identity?
+True Answer: information
+Predicted Answer: close inform
+
+
+====================
+Context: If you use our recommendation service to email one of our articles to a friend, The Motley Fool will automatically send this person a one-time email, with the recommended article attached. The email address you give us will appear on the "From" line of the email, thereby disclosing this information to whoever opens and reads the email. Similarly, if you send email from our site, by using "Reply to Author" or "Email this Post," your address may appear as the return address of that email.
+Question: What types of user's information do you share with others?
+True Answer: your address
+Predicted Answer: f our articles to a friend, The Motley Fool will automatically send 
+
+
+====================
+Context: Data Retention Upon your request, we will remove your personal information from the website but we will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our Fool Rules and take other actions otherwise permitted by law.
+Question: Will you save my data? If yes, why?
+True Answer: resolve disputes,
+Predicted Answer: ill remove your personal
+
+
+====================
+Context: What Else Should You Know About Your Privacy- When you post information on discussion boards, in chat rooms, and in such features as your Personal Profile or your Foolish Interview, that information, along with your screen name, is visible to the public. Please remember that whenever you disclose personal information publicly that information can be collected and used by others. In short, if you post personal information online where people can see it, people will know that information and you may receive unsolicited messages from other parties in return. If you do not want strangers to have your email address, you should not post your email address on a discussion board. Similarly, if you do not want people to know that you are President Barack Obama and you use our "Living Below Your Means" discussion board for help in balancing the federal budget, then you should not post that information, Mister President.
+Question: Do you share my info with third parties to fulfill an additional service?
+True Answer: post information on discussion boards, in chat rooms, and in such features as your Personal Profile or your Foolish Interview
+Predicted Answer:  About Your Privacy- When you post infor
+
+
+====================
+Context: What We Collect We collect the information you affirmatively choose to provide us, such as when you provide your name, contact information, the pages you access and similar information for such purposes as purchasing products, creating an account, joining our loyalty programs, filling out a survey, entering contests, participating in promotions or electronic activities, posting comments on bulletin boards or otherwise interacting with our Sites. By accessing the Sites, you consent to receive materials and understand and acknowledge that you may receive emails and other communications from BWW. When you purchase a product from our Sites, we ask you to provide information to fulfill your order, including your name, email address, phone, shipping address, billing address and method of payment to facilitate your purchase. If you create an account through one of our Sites, this personal information will be stored by us. If you purchase products as a Site Guest, we will not store the personally identifiable information you provide.
+Question: What type of personal information is retained by them?
+True Answer: personal information
+Predicted Answer: matively choose to provide us, such as when you provide your na
+
+
+====================
+Context: Any information you share with us pursuant to signing up for Buffalo Circle or for any other purpose, will be shared as needed to facilitate that purpose. We generally do not share your information with companies who are not affiliated with us, but if we do, we will provide you with an opportunity to opt-out of these communications at any time by contacting us at Buffalo Wild Wings, 5500 Wayzata Blvd, 16th Floor, Minneapolis, MN 55416, Attn: Marketing Department or by using the opt-out instructions in the communications themselves. Should you have questions about how we use your information, feel free to send us a message by visiting the Contact Us section of any of our Sites. Alternatively, you can contact us at 1-877-299-8366, and speak with a Customer Service representative.
+Question: How does a third party receive my data from you?
+True Answer: shared
+Predicted Answer: s
+
+
+====================
+Context: Children's Privacy We are very concerned about protecting the safety and privacy of children. Our Sites are not intended for children. We do not specifically collect information about children and do not sell products for purchase by children. If you are under 18, get your parent's consent before giving out any personal information online.
+Question: What is the company's policy towards children?
+True Answer: Children's Privacy We are very concerned about protecting the safety and privacy of children. Our Sites are not intended for children. We do not specifically collect information about children and do not sell products for purchase by children. If you are under 18, get your parent's consent before giving out any personal information online.
+Predicted Answer: cy We are very concerned about protecting the safety and pr
+
+
+====================
+Context: If you are an entity (such as a corporation, partnership or limited liability company) or an educational institution and you authorize your employees to access those portions of the Site that require a registration, one digital subscription will entitle each of your authorized employees to access those portions of the Site without the need for each employee to register individually, provided that such employees access such portions of the Site from a computer or other device with your institutional IP addresses for such devices that you have provided to us at the time of your registration. While these employees will not need to register to access such portions of the Site if they do so on devices with the provided IP addresses, we may gather usage data and track IP addresses from such users without their individual consent.
+Question: What types of my online activities is collected by the website?
+True Answer: we may gather usage data
+Predicted Answer:  t
+
+
+====================
+Context: Non-personal information. We may use third- party advertising companies to serve ads. Such companies may also gather non-personally identifiable information about Site visitation patterns so that we can continue to improve our web site and use such information (not including your name, address, email address, or telephone number) about your visit to this web site in order to provide advertisements about goods and services that may be of interest to you.
+Question: Does the website mention the name of third parities, who gets my data?
+True Answer: third- party advertising companies
+Predicted Answer: We ma
+
+
+====================
+Context: 5. Cookies This Site uses cookies. "Cookies" are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us confirm your registration and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity and compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.
+Question: Does you collect my information to enhance or personalize my experience?
+True Answer: understand your preferences based on previous or current site activity
+Predicted Answer: transfers to your computer's hard drive th
+
+
+====================
+Context: Survey Data for functionality of certain services, which generally includes survey data (questions and responses) and may allow you to import email addresses and names for ease of allowing you to send surveys or to allow us to send surveys on your behalf.
+Question: Do you collect data about users explicitly?
+True Answer: responses
+Predicted Answer: y of certain services, which 
+
+
+====================
+Context: to inform you about new products or promotional offers, or other opportunities which we feel will be of interest to you, and to provide advertisements to you through our sites, email messages, text messages, applications, or other methods of communication,
+Question: Do you ask for my contact information?
+True Answer: email messages, text messages, applications, or other methods of communication,
+Predicted Answer: onal offers, o
+
+
+====================
+Context: in order to protect the rights or property of Internet Brands and our subsidiaries and corporate affiliates, including to enforce our sites. or services' terms of use,
+Question: Do you share my information with your affiliates or subsidiaries?
+True Answer: our subsidiaries and corporate affiliates
+Predicted Answer: ghts
+
+
+====================
+Context: Cookies We use use cookies and other tracking technologies (including browser cookies, pixels, beacons, mobile application identifiers, and Adobe Flash technology) to help us recognize you across different sites and services, improve your experience, increase security, measure use and effectiveness of our services, and serve advertising. You can control cookies through your browser settings and other tools. For more, information, please read our Cookie Policy. By visiting our sites and services, you consent to the placement of cookies and beacons in your browser and HTML-based emails in accordance with this privacy policy and our Cookie Policy.
+Question: What type of my information is collected by the website?
+True Answer: cookies and other tracking technologies (including browser cookies, pixels, beacons, mobile application identifiers, and Adobe Flash technology)
+Predicted Answer: e
+
+
+====================
+Context: Please be aware that certain records and information will be retained for specific purposes such as legal, payment, accounting, technical, dispute resolution, enforcement of our sites. and services' terms of use, or customer service. If you have posted comments or user generated content on our site, we may not be able to delete it. Further, we take no responsibility for removing or editing any of your public activities or any submissions or content that is a result of your public activities, except as provided in this privacy policy or the sites. or services' terms of use.
+Question: Will you save my data? If yes, why?
+True Answer: payment, accounting, technical, dispute resolution, enforcement of our sites
+Predicted Answer: records and inf
+
+
+====================
+Context: Use and Disclosure of Your Protected Health Information When you use certain services (for example, appointment request) all protected health information that you submit is used and disclosed by us as a Business Associate (as defined by HIPAA) according to the terms of a Business Associate Agreement between us and that healthcare provider. This means that we may only use and disclose your protected health information on behalf of, or to provide services to, the healthcare provider according to the Business Associate Agreement. There are three exceptions to this use and disclosure rule. We may use and disclose your protected health information (i) for our internal management and administration; (ii) to carry out our legal responsibilities; and (iii) to perform certain data aggregation services for the healthcare provider and other healthcare providers; provided that, any disclosures for our internal management and administration or to carry out our legal responsibilities are either required by law or made after we obtain reasonable assurances from the person to whom the protected health information is disclosed that it will be held confidentially and used or further disclosed only as required by law or for the purpose for which it was disclosed to that person.
+Question: If the law requires you to dislose my data, will you do that?
+True Answer: (ii) to carry out our legal responsibilities;
+Predicted Answer: of Your Protected Health Information When you use certain services (for example, appointment request) all protected health information that you submit is used and disclosed by us as a Business Associate (as defined by HIPAA) 
+
+
+====================
+Context: If we collect such information, in most instances, the applicable page(s) or location(s) within the Services will include statements regarding what information is required for the elements of the Services to function properly and functionality for you to submit the requested or required information. In addition to the list above, there may also be opportunities for you to grant permission for use of other of your information in a manner set forth on the applicable page(s) within the Services.
+Question: Can I choose to give my data to you or not?
+True Answer: grant permission for use of other of your information
+Predicted Answer: age(s) or locatio
+
+
+====================
+Context: Share your information upon notice posted on an applicable location of our Services where we collect your personal information for an economic transaction and notify you that we will be sharing such information with a third party;
+Question: What type of personal info is shared by this website with a third party?
+True Answer: information
+Predicted Answer:  p
+
+
+====================
+Context: Other Information Collected And Shared Within Our Services. Our Cookies and Web Beacons We use and permit automatic methods such as cookies (small amounts of data which include a unique string of characters sent to your browser or application from a website's computers and stored on your computer's or device's hard drive), web beacons (technology used to track activity, also known as pixel tags) or similar technologies, alone or in combination with personally identifiable information you choose to provide us. Examples of the information we collect and analyze using such methods include, but is not limited to: personal information as authorized by you, the Internet protocol address used to connect your computer or device to the Internet; email address; login name and password; operating system type, version and computer or device platform; purchase history; the full Uniform Resource Locator clickstream to, on and from our Services, including date and time; and products you viewed or searched. We use software tools to measure and collect session information, including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks and mouse-overs) and methods used to browse away from a page. We use and may allow certain third parties, such as those who provide services associated with our Services, to access these automatic data collection methods to enable you to use a "shopping cart" while using our Services, to store your preferences and to improve, deliver and customize our Services' content and offerings.
+Question: Are cookies or any tracking elements are used to collect my information?
+True Answer: cookies
+Predicted Answer: ted And Shared Within Our Services. Our Cookies and Web Beacons We use and permit automatic methods such as cookies (small amounts of data which include a unique string of characters sent to your browser or application from a website's computers and stored on your computer's or device's hard 
+
+
+====================
+Context: Device ID When using our Mobile Games, we or our third party service provider may collect your unique device ID and share it on an aggregated and anonymous basis to help us understand our users and provide you a better experience. The aggregated and anonymous data may also be used by our third party service provider in connection with its products and services. If you wish to opt out of this anonymous data collection, please click here and follow the instructions.
+Question: Does the company share my information with a third party?
+True Answer: third party service provider
+Predicted Answer: r Mob
+
+
+====================
+Context: If you want to review or revise the personal information you provided during registration or in connection with a purchase or other activity while using our Services, or change the promotional email communications or newsletters you receive from us, you may either (1) click here to log in, and then click on the applicable left-hand menu option, or (2) call MLB.com Customer Service at 866-800-1275. If you want to close your Website account and have us delete the personal information in it (except for information that we keep for record-keeping purposes), you should call MLB.com Customer Service at 866-800-1275.
+Question: Can I see information about my previous transactions?
+True Answer: in connection with a purchase or other activity while using our Services
+Predicted Answer:  to review or revise the personal information you provided during registration or in connection with a purchase or other activity while
+
+
+====================
+Context: Information you provide directly to us: When you register an account on TED.com, we ask you to provide a unique email address, first and last name, and password. You have the option of also providing profile information (such as location, occupation and your personal story). You may also choose to directly send us information such as email correspondence or search queries.
+Question: Does the company collect user's demographic information?
+True Answer: occupation
+Predicted Answer: ter an accoun
+
+
+====================
+Context: Device information: We may collect non-personal information about the computer, mobile device or other device you use to access TED services, such as IP address, geolocation information, unique device identifiers, browser type, browser language and other transactional information.
+Question: Do they collect my information to fulfill the basic services?
+True Answer: you use to access TED services,
+Predicted Answer:  information: We may collect non
+
+
+====================
+Context: Deleting your account: You can request that your account be deleted at any time by contacting us. When your account is deleted, your user profile and all public activities (comments, conversation topics) will be removed. To unsubscribe from our newsletters, click on the link at the bottom of a newsletter you have received, or you can manage your subscriptions from your TED.com profile.
+Question: Will you remove all my information after deleting the account?
+True Answer: You can request that your account be deleted at any time by contacting us. When your account is deleted, your user profile and all public activities (comments, conversation topics) will be removed.
+Predicted Answer: t that your account be 
+
+
+====================
+Context: Disclosure of Information We may share your information: Where we have obtained your consent, including with video content and social networking services as described in our Video Services Policy. With our third party service providers. With business partners who sponsor a sweepstakes, contest, or promotion; or who jointly offer a service or feature with a CBS Interactive Service. Within the family of CBS Interactive Services and other CBS businesses. If a CBS Interactive Services is sold to another company. To protect or defend the rights of CBS Interactive or our users. When required by law or public authorities.
+Question: Is my information shared with others?
+True Answer: When required by law or public authorities.
+Predicted Answer: f I
+
+
+====================
+Context: In addition, our site uses third-party software to analyze the web pages within our site that your computer visits. This information, called "clickstream data," is associated with your computer's IP address. We do not associate clickstream data with your name, mailing address, or any other personal information. We collect clickstream data to analyze which portions of our site draw the most traffic so we can improve performance of our site. We also may track how many recipients of our e-mail newsletters click through to other sites. This clickstream data may be shared, in aggregate and anonymous form, with third-party advertisers. We do not associate clickstream data with personally identifiable information.
+Question: What type of information do you collect about me?
+True Answer: associated with your computer's IP address
+Predicted Answer: nal
+
+
+====================
+Context: Like any other company, we may sell, buy, merge, or partner with other companies or businesses. In such transactions, information about our subscribers and website visitors may be among the transferred assets. We may also disclose your information in response to a court order or other valid legal process or at other times when we believe we are reasonably required to do so by law, in connection with payments you may owe to us, and/or whenever we deem it appropriate or necessary to give such information to law-enforcement authorities. At our discretion, we may not provide you with notice prior to such disclosures.
+Question: Does the website share user's data with others for enforcement of terms of service?
+True Answer: in connection with payments you may owe to us
+Predicted Answer: s or busines
+
+
+====================
+Context: Dog Breed Info Center uses Google AdSense, which allows third-party vendors to serve ads on our website. You can find a list of allowed third-party ads by going to https://www.google.com/adsense/support/bin/answer.py?answer=94149topic=14535.
+Question: Do you allow others to track my information on your websites?
+True Answer: on our website
+Predicted Answer: ter uses Google AdSense, which allows third-party vendors to serv
+
+
+====================
+Context: Information We Receive From You You share information with us in various ways in our stores and online. For example, you share information when you: Make an in-store or online purchase, or other transaction, with us; Create an account on one of our websites or mobile services; Use a gift registry or create a mobile shopping list; Participate in our programs, such as Savings Catcher or eReceipts; Conduct a transaction or request a service where we collect information (including when required by law, such as hunting and fishing licenses); Request customer service or contact us; Post a review or comment on one of our social media pages, or post a rating, review or other user-generated content on one of our websites or mobile services; and Participate in a contest, sweepstake, promotion, or survey.
+Question: Does the data collection occur when the user have an account?
+True Answer: Create an account
+Predicted Answer:  us in various ways in our stores and online. For example, you share information when you: Make an in-store or online p
+
+
+====================
+Context: How Do We Use Your Personal Information? We use your personal information to provide you products and services, such as to fulfill your requests for products or to help us personalize our offerings to you. We also use your personal information to support our business functions, such as fraud prevention, marketing, and legal functions.
+Question: What type of information do you collect from me to use?
+True Answer: your personal information
+Predicted Answer: al
+
+
+====================
+Context: Products and Services Offered by Other Businesses We will sometimes enable other businesses to make products or services available to our customers, such as through Walmart.com Marketplace retailers. You may purchase products or services from these other businesses at our stores or through our websites or mobile services. We indicate when products or services are offered by other businesses and share with these businesses personal information related to your purchase of their products and services.
+Question: Will they disclose my data?
+True Answer: We indicate when products or services are offered by other businesses and share with
+Predicted Answer: rv
+
+
+====================
+Context: You can provide us with your marketing preferences by visiting our Communication Preferences Alerts page. The Communication Preferences Alerts page allows you at any time to update or change your preferences about receiving marketing materials. Or you may contact the Privacy Office as described in the " Contact Us" section below.
+Question: Am I allowed to make changes in my account data?
+True Answer: You can provide us with your marketing preferences
+Predicted Answer: 
+
+
+====================
+Context: If you need assistance accessing records related to your Vision Center, Pharmacy, or financial services information, please visit the "What Are Your Privacy Protections for Specific Types of Personal Information?"section.
+Question: What type of data I can access that you have about me?
+True Answer: your Vision Center, Pharmacy, or financial services information,
+Predicted Answer: istance accessing records related to yo
