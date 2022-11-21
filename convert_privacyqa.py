@@ -143,7 +143,7 @@ def convert(data_dir: PathLike):
                             "question": question,
                             # "type": "First Party Collection/Use|||Collection Mode|||Explicit",
                             "id": str(secrets.token_hex(8)),
-                            "answers": [{'text': relevant[0].clean_segment, 'answer_start': para.index_of(relevant[0].segment)}]
+                            "answers": [{'text': relevant[0].clean_segment, 'answer_start': para.index_of(relevant[0].clean_segment)}]
                         }
                         para_dict['qas'].append(question_dict)
                     if len(relevant) > 1:
@@ -151,7 +151,7 @@ def convert(data_dir: PathLike):
                             "question": question,
                             # "type": "First Party Collection/Use|||Collection Mode|||Explicit",
                             "id": str(secrets.token_hex(8)),
-                            "answers": [{'text': record.segment, 'answer_start': para.index_of(record.segment)} for record in relevant]
+                            "answers": [{'text': record.segment, 'answer_start': para.index_of(record.clean_segment)} for record in relevant]
                         }
                         para_dict['qas'].append(question_dict)
                 if len(para_dict['qas']) > 0:
