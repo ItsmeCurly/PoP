@@ -59,15 +59,16 @@ def convert(data_dir: PathLike):
                 data['test']['data'] = file
         # Not sure if meta-annotations is necessary, leave out for now
     
-    output = {
-        "version": "v1.0",
-        "data": [
-        ]
-    }
-    
-    counter = itertools.count(start=0, step=1)
-    
     for key in ['train', 'test']:
+        output = {
+            "version": "v1.0",
+            "data": [
+            ]
+        }
+        
+        
+        counter = itertools.count(start=0, step=1)
+        
         data_pre = pd.read_csv(data[key]['data'], delimiter='\t').drop(['DocID', 'QueryID', 'SentID', 'Split'], axis=1)
         
         data_pre['Folder'] = data_pre['Folder'].apply(lambda x: x.replace(f"../../Dataset/{key.capitalize()}/", ""))
@@ -151,7 +152,7 @@ def convert(data_dir: PathLike):
                             "question": question,
                             # "type": "First Party Collection/Use|||Collection Mode|||Explicit",
                             "id": str(secrets.token_hex(8)),
-                            "answers": [{'text': record.segment, 'answer_start': para.index_of(record.clean_segment)} for record in relevant]
+                            "answers": [{'text': record.clean_segment, 'answer_start': para.index_of(record.clean_segment)} for record in relevant]
                         }
                         para_dict['qas'].append(question_dict)
                 if len(para_dict['qas']) > 0:
