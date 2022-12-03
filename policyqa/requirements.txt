@@ -1,9 +1,0 @@
-tqdm
-transformers
-apex
-numpy
-ptvsd
-tensorboardX
-tensorflow_datasets
-folium
-imgaug
