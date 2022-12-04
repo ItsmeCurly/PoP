@@ -80,7 +80,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --save_steps $save_steps
 }
 
-function evaluate_policyqa_nosquad () {
+function evaluate_policyqa_squad () {
 
 CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
@@ -176,3 +176,5 @@ evaluate_policyqa_squad
 train_privacyqa_nosquad
 evaluate_privacyqa_nosquad
 
+train_privacyqa_squad
+evaluate_privacyqa_squad
