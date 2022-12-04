@@ -25,7 +25,7 @@ save_steps=500
 
 function train_policyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $base_nosquad \
     --do_train \
@@ -46,7 +46,7 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
 
 function evaluate_policyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $policyqa_nosquad_out \
     --do_eval \
@@ -61,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
 
 function train_policyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $base_squad \
     --do_train \
@@ -82,7 +82,7 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
 
 function evaluate_policyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $policyqa_squad_out \
     --do_eval \
@@ -97,7 +97,7 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
 
 function train_privacyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $base_nosquad \
     --do_train \
@@ -118,7 +118,7 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
 
 function evaluate_privacyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $privacyqa_nosquad_out \
     --do_eval \
@@ -133,7 +133,7 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
 
 function train_privacyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $base_squad \
     --do_train \
@@ -154,7 +154,7 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
 
 function evaluate_privacyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --model_type bert \
     --model_name_or_path $privacyqa_squad_out \
     --do_eval \
