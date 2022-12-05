@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+set -xe
 
 SQUAD_DIR=data/squad11
 POLICYQA_DIR=data/policyqa
@@ -14,7 +14,7 @@ policyqa_squad_out=models/bert-base-uncased-policyqa-squad
 privacyqa_nosquad_out=models/bert-base-uncased-privacyqa
 privacyqa_squad_out=models/bert-base-uncased-privacyqa-squad
 
-epochs=1
+epochs=50
 
 max_seq_length=384
 doc_stride=128
@@ -25,7 +25,7 @@ save_steps=500
 
 function train_policyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_nosquad \
     --do_train \
@@ -46,7 +46,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function evaluate_policyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $policyqa_nosquad_out \
     --do_eval \
@@ -61,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function train_policyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_squad \
     --do_train \
@@ -70,7 +70,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --train_file $POLICYQA_DIR/train.json \
     --predict_file $POLICYQA_DIR/dev.json \
     --learning_rate 3e-5 \
-    --num_train_epochs 25 \
+    --num_train_epochs $epochs \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
     --output_dir ./$policyqa_squad_out/ \
@@ -82,7 +82,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function evaluate_policyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $policyqa_squad_out \
     --do_eval \
@@ -97,7 +97,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function train_privacyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_nosquad \
     --do_train \
@@ -106,7 +106,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --train_file $PRIVACYQA_DIR/policy_train_squad.json \
     --predict_file $PRIVACYQA_DIR/policy_test_squad.json \
     --learning_rate 3e-5 \
-    --num_train_epochs 25 \
+    --num_train_epochs $epochs \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
     --output_dir ./$privacyqa_nosquad_out/ \
@@ -118,7 +118,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function evaluate_privacyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $privacyqa_nosquad_out \
     --do_eval \
@@ -133,7 +133,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function train_privacyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_squad \
     --do_train \
@@ -142,7 +142,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --train_file $PRIVACYQA_DIR/policy_train_squad.json \
     --predict_file $PRIVACYQA_DIR/policy_test_squad.json \
     --learning_rate 3e-5 \
-    --num_train_epochs 25 \
+    --num_train_epochs $epochs \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
     --output_dir ./$privacyqa_squad_out/ \
@@ -154,7 +154,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function evaluate_privacyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $privacyqa_squad_out \
     --do_eval \
@@ -166,6 +166,11 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --per_gpu_eval_batch_size=$eval_batch_size \
     --eval_all_checkpoints
 }
+
+rm -r models/
+rm -r runs/
+
+rm cached_*
 
 train_policyqa_nosquad
 evaluate_policyqa_nosquad
