@@ -167,10 +167,10 @@ CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --eval_all_checkpoints
 }
 
-rm -r models/
-rm -r runs/
+rm -rf models/
+rm -rf runs/
 
-rm cached_*
+rm -f cached_*
 
 train_policyqa_nosquad
 evaluate_policyqa_nosquad
