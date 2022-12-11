@@ -422,11 +422,14 @@ def load_and_cache_examples(args, tokenizer, evaluate=False, output_examples=Fal
 
     # Load data features from cache or dataset file
     input_dir = args.data_dir if args.data_dir else "."
+    
+    predict_file = args.predict_file.replace(".json", "").split("/")[-1]
     cached_features_file = os.path.join(
         input_dir,
-        "cached_{}_{}_{}".format(
+        "cached_{}_{}_{}_{}".format(
             "dev" if evaluate else "train",
             list(filter(None, args.model_name_or_path.split("/"))).pop(),
+            predict_file,
             str(args.max_seq_length),
         ),
     )
@@ -836,8 +839,14 @@ def main():
 
             result = dict((k + ("_{}".format(global_step) if global_step else ""), v) for k, v in result.items())
             results.update(result)
+        import json
+        from pathlib import Path
+        with open(Path(args.output_dir, "results.json"), mode='w') as out_json:
+            json.dump(results, out_json,indent=4)
 
     logger.info("Results: {}".format(results))
+    
+    
 
     return results
 

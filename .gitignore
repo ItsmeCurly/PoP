@@ -1,6 +1,7 @@
 env2/
 env/
 models/
+runs/
 
 
 # Byte-compiled / optimized / DLL files

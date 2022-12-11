@@ -20,12 +20,11 @@ max_seq_length=384
 doc_stride=128
 train_batch_size=8
 eval_batch_size=16
-save_steps=500
-
+save_steps=2500
 
 function train_policyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_nosquad \
     --do_train \
@@ -38,15 +37,16 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
     --output_dir ./$policyqa_nosquad_out/ \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --per_gpu_eval_batch_size=$eval_batch_size  \
     --per_gpu_train_batch_size=$train_batch_size   \
-    --evaluate_during_training \
     --save_steps $save_steps
 }
 
 function evaluate_policyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $policyqa_nosquad_out \
     --do_eval \
@@ -54,14 +54,15 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --predict_file $POLICYQA_DIR/test.json \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --output_dir ./$policyqa_nosquad_out/ \
-    --per_gpu_eval_batch_size=$eval_batch_size \
-    --eval_all_checkpoints
+    --per_gpu_eval_batch_size=$eval_batch_size
 }
 
 function train_policyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_squad \
     --do_train \
@@ -74,6 +75,8 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
     --output_dir ./$policyqa_squad_out/ \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --per_gpu_eval_batch_size=$eval_batch_size  \
     --per_gpu_train_batch_size=$train_batch_size   \
     --evaluate_during_training \
@@ -82,7 +85,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function evaluate_policyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $policyqa_squad_out \
     --do_eval \
@@ -90,6 +93,8 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --predict_file $POLICYQA_DIR/test.json \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --output_dir ./$policyqa_squad_out/ \
     --per_gpu_eval_batch_size=$eval_batch_size \
     --eval_all_checkpoints
@@ -97,7 +102,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
 
 function train_privacyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_nosquad \
     --do_train \
@@ -109,16 +114,17 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --num_train_epochs $epochs \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --output_dir ./$privacyqa_nosquad_out/ \
     --per_gpu_eval_batch_size=$eval_batch_size  \
     --per_gpu_train_batch_size=$train_batch_size   \
-    --evaluate_during_training \
     --save_steps $save_steps
 }
 
 function evaluate_privacyqa_nosquad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $privacyqa_nosquad_out \
     --do_eval \
@@ -126,14 +132,15 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --predict_file $PRIVACYQA_DIR/policy_test_squad.json \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --output_dir ./$privacyqa_nosquad_out/ \
-    --per_gpu_eval_batch_size=$eval_batch_size \
-    --eval_all_checkpoints
+    --per_gpu_eval_batch_size=$eval_batch_size
 }
 
 function train_privacyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $base_squad \
     --do_train \
@@ -145,41 +152,40 @@ CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
     --num_train_epochs $epochs \
     --max_seq_length $max_seq_length \
     --doc_stride $doc_stride \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --output_dir ./$privacyqa_squad_out/ \
     --per_gpu_eval_batch_size=$eval_batch_size  \
     --per_gpu_train_batch_size=$train_batch_size   \
-    --evaluate_during_training \
     --save_steps $save_steps
 }
 
 function evaluate_privacyqa_squad () {
 
-CUDA_VISIBLE_DEVICES=0 python3 run_squad.py \
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
     --model_type bert \
     --model_name_or_path $privacyqa_squad_out \
     --do_eval \
     --do_lower_case \
     --predict_file $PRIVACYQA_DIR/policy_test_squad.json \
     --max_seq_length $max_seq_length \
+    --overwrite_cache \
+    --overwrite_output_dir \
     --doc_stride $doc_stride \
     --output_dir ./$privacyqa_squad_out/ \
-    --per_gpu_eval_batch_size=$eval_batch_size \
-    --eval_all_checkpoints
+    --per_gpu_eval_batch_size=$eval_batch_size
 }
-
-rm -rf models/
-rm -rf runs/
 
 rm -f cached_*
 
-train_policyqa_nosquad
-evaluate_policyqa_nosquad
+# train_policyqa_nosquad
+# evaluate_policyqa_nosquad
 
-train_policyqa_squad
-evaluate_policyqa_squad
+# train_policyqa_squad
+# evaluate_policyqa_squad
 
 train_privacyqa_nosquad
-evaluate_privacyqa_nosquad
+# evaluate_privacyqa_nosquad
 
 train_privacyqa_squad
-evaluate_privacyqa_squad
+# evaluate_privacyqa_squad
